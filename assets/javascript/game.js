@@ -148,7 +148,7 @@ randomize();
 document.onkeyup = function(event) {
     console.log(`\n`);
     // save the key press
-    if ((event.keyCode >= 65 && event.keyCode <= 90) || event.keyCode == 222 || event.keyCode == 32) {
+    if ((event.keyCode >= 65 && event.keyCode <= 90) || event.keyCode == 222 || event.keyCode == 32 || event.keyCode == 190) {
         var keyPress = event.key;
         var userInput = keyPress.toUpperCase();
         console.log(`Key pressed: ${userInput}`);
