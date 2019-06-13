@@ -16,6 +16,7 @@ var loses = 0;
 
 // set condition when user input matches the answer
 var match = false;
+
 // store amount of times user showed the answer, set condition to not exceed 1 per round
 var noobCount = 0;
 var answerShown = false;
