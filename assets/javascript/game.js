@@ -68,7 +68,7 @@ var check = function(a) {
     // set match to false to run if item did not match; if input is not in wrong array and the input is not the correct answer
     // store input into wrong array and lose a try
     if (match === false && wrongArr.indexOf(a) === -1 && answer.indexOf(a) === -1) {
-        console.log('**** NO MATCH ****')
+        console.log('**** NO MATCH ****');
         wrongArr.push(a);
         trys--;
     }
@@ -83,7 +83,7 @@ var showHtml = function() {
     document.getElementById('loses').innerHTML = `Loses: ${loses}`;
     document.getElementById('game').innerHTML = ``;
     if (noobCount > 0) {
-        document.getElementById('noob-count').innerHTML = `Hints Used: ${noobCount}`
+        document.getElementById('noob-count').innerHTML = `Hints Used: ${noobCount}`;
     }
 };
 
